@@ -47,7 +47,7 @@ Launch the *Arknights: Endfield* game client directly, bypassing the
 ## 快速开始 / Quick start
 
 ```powershell
-git clone https://github.com/<your-name>/Endfield-direct-launcher.git
+git clone https://github.com/Glasden/Endfield-direct-launcher.git
 cd Endfield-direct-launcher
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
