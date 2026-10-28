@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Windows 批处理与 PowerShell 脚本使用 CRLF，避免 cmd.exe 解析踩坑
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制
+*.exe binary
+*.dll binary
+*.ico binary
+*.png binary

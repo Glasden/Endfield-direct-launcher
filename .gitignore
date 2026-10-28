@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+# build / runtime artifacts
+# ---------------------------------------------------------------
+dist/
+*.exe
+*.pdb
+
+# ---------------------------------------------------------------
+# copyrighted game/launcher assets must never be committed
+# (icons are extracted from the user's own installation at build time)
+# ---------------------------------------------------------------
+assets/
+*.ico
+
+# ---------------------------------------------------------------
+# local runtime state (contains absolute paths / your game args)
+# ---------------------------------------------------------------
+Start-Endfield.config.json
+Start-Endfield.args
+*.log
+
+# ---------------------------------------------------------------
+# editors / OS
+# ---------------------------------------------------------------
+.vs/
+.vscode/
+*.user
+Thumbs.db
+desktop.ini
